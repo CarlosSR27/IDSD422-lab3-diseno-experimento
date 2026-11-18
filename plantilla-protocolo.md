@@ -55,5 +55,9 @@ Sorteo de 20 tiendas a cada grupo (paralelo).
 *Escribe `scripts/comparacion_experimento.py` (o `.R`): debe cargar `plantillas/registro_experimento.csv` y calcular el promedio de `ventas_producto` por `ubicacion`. Incluye la salida y responde:*
 
 - ¿Qué grupo muestra mayor venta promedio en la plantilla?
+El pasillo muestra 1335 USD en venta frente a 1040 USD en habitual
+
 - ¿Por qué con 4 filas no se puede concluir nada sobre el efecto de la ubicación?
+No se puede concluir porque no hay ninguna asignacion real aleatoria, los datos son muy pocos (4) no tenemos control de temporada, ni promociones en el grupo pasilo y no hay medida de variabilidad.
+
 - Si el experimento se ejecutara con tu protocolo, ¿qué le faltaría a este análisis para ser justo?
